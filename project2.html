@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nursyakila Roslan</title>
+    <link rel="icon" type="image/x-icon" href="images/image1.png">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <script src="https://kit.fontawesome.com/465b81b1c8.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="index.html"> Home</a></li>
+                    <li> <a href="index.html#about"> About Me</a></li>
+                    <li> <a href="index.html#services"> Services</a></li>
+                    <li> <a href="#portfolio"> Portfolio</a></li>
+                    <li> <a href="#contact"> Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+                <div class="header-text">
+                    <p> Front End Developer</p>
+                    <h1> Hi there, I'm <span> Nursyakila Roslan </span> from Malaysia</h1>
+                </div>
+        </div>
+    </div>
+<!-------------------about me section------------------>
+    <div id="about"></div>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/work2/mywork2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Flower Website</h1>
+                    <p>This is a flower website using HTML, CSS and JavaScript. This website specialize </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('techno')">Technologies Used</p>
+                    <p class="tab-links" onclick="opentab('video')">Demo Video</p>
+                    <p class="tab-links" onclick="opentab('slider')">Images</p>
+                </div>  
+
+                   <div class="tab-contents active-tab" id="techno">
+                    <ul>
+                        <li><i class="fa-brands fa-html5" style="color: #fff;"></i>HTML</li>
+                        <li><i class="fa-brands fa-css3-alt" style="color: #ffffff;"></i>CSS</li>
+                        <li><i class="fa-brands fa-square-js" style="color: #ffffff;"></i>JavaScript</li>
+                    </ul>
+
+                    </div>
+                
+                <div class="tab-contents" id="video">
+                    <video width="600" controls>
+                        <source src="images/work2/work2.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                      </video>
+                      <p>
+                      <a href="https://github.com/nursyakilar/flower-shop" target="_blank"class="btn"> Project Link</a>
+                      </p>
+                </div>
+
+                    <div class="tab-contents" id="slider">
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides">
+                            <img src="images/work2/1.png" style="width:100%">
+            
+                        </div>
+                        <div class="mySlides">
+                            <img src="images/work2/2.png" style="width:100%">   
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/work2/3.png" style="width:100%">   
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/work2/4.png" style="width:100%">   
+                        </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                         </div>
+                      <br>
+                      
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+ <!-------------------portfolio section------------------>
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/2.1.png" alt="">
+                <div class="layer">
+                    <h3>GTA Consultancy</h3>
+                    <p>This ecommerce website helps to promote the client's business in oil palm weigthing and also to sell documents related to oil palm weighthing for users.   </p>
+                    <a href="project1.html"> <i class="fa-solid fa-eye"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3/work3.png" alt="">
+                <div class="layer">
+                    <h3>Tealive Mockup Landing Page</h3>
+                    <p>This is a mockup landing page for a popular drink franchise which is Tealive that I have recreated to make the landing page more creative.
+                        This website is created using HTML,CSS and JavaScript.
+                    </p>
+                    <a href="project3.html"> <i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work4/main4.png" alt="">
+                <div class="layer">
+                    <h3>Neflix Malaysia Clone Website</h3>
+                    <p>This is a clone of Nelfix Malaysia.This website is created using HTML and CSS. 
+                    </p>
+                    <a href="project4.html" target=”_blank”> <i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+  <!-------------------contact section------------------>
+  
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <br>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>nursyakilaroslan510@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+60148008473</p>
+                <p><i class="fa-solid fa-location-dot"></i> Selangor, Malaysia</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/syakilareedus/" target=”_blank”><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/nursyakila-roslan-620733202/"  target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/nursyakilar"  target=”_blank”><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="#" class="btn btn2" onclick=" window.open('images/NURSYAKILAROSLAN_RESUME.pdf')">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" id="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                    <textarea name="message" rows="6" placeholder="Enter your message here"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nursyakila</p>
+    </div>
+  </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+         
+            function openmenu(){
+
+                sidemenu.style.right="0";
+            }
+
+            function closemenu(){
+
+            sidemenu.style.right="-200px";
+            }
+
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwC6qYUsrFE5zhrsprLpU52Iztmxd71tY9Sy6v_jevjWNLHqhgRX1-9cfTGEJqFWau3Lg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+        
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML= "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+            })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+        <script>
+
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            }
+        </script>
+</body>
+</html>
